@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Syed Ahad ullah">
+    <meta
+      name="description"
+      content="Contact information The Little Tacos Shope">
+    <title>Contact-LTS</title>
+    <link rel="icon" href="./img/Tacos Icon.png">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header>
+      <h1>Contact Us</h1>
+      <nav>
+        <ul>
+          <li>
+            <a href="index.html">Home</a>
+          </li>
+          <li>
+            <a href="hours.html">Store Hours</a>
+          </li>
+        </ul>
+        <figure>
+          <img
+            src="./img/contact_400x260.png"
+            alt=""
+            width="400"
+            height="260">
+        </figure>
+      </nav>
+    </header>
+    <main>
+      <section>
+      <h2>Our Contact Form</h2>
+      <form action="https://httpbin.org/get" method="get">
+        <fieldset>
+          <legend>Send us A Message</legend>
+
+          <p>
+            <label for="firstName">First Name:</label>
+            <input
+              type="text"
+              name="firstName"
+              id="firstName"
+              placeholder="Your First Name"
+              required
+              autocomplete="on">
+          </p>
+
+          <p>
+            <label for="lastName">Last Name:</label>
+            <input
+              type="text"
+              name="lastName"
+              id="lastName"
+              placeholder="Your Last Name"
+              required
+              autocomplete="on">
+          </p>
+
+          <p>
+            <label for="email">Email:</label>
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Your Email"
+              required>
+          </p>
+          <p>
+            <label for="password">Password:</label>
+            <input
+              type="password"
+              name="password"
+              id="password"
+              placeholder="Your Password"
+              required>
+          </p>
+
+          <p>
+            <label for="message">Your Message</label>
+            <br>
+            <textarea
+              name="message"
+              id="message"
+              cols="30"
+              rows="10" placeholder="Type Your Message Here">
+            </textarea>
+          </p>
+        </fieldset>
+        <button type="submit">Send</button>
+        <button type="reset">Reset</button>
+      </form>
+    </section>
+    <section>
+      <h2>Our Location</h2>
+      <address>
+        Bhattani Plaza, 3a Park Ave, University Town
+        <br>
+        Peshawar, Khyber Pakhtunkhwa 25000
+      </address>
+      
+      <p>Phone: <a href="tel:0317-9636835">0317-9636835</a></p>
+      <br>
+      <p>
+        <a href="#">Back To Top</a>
+      </p>
+    </section>
+    </main>
+    <hr>
+    <footer>
+      <p>Copyright &copy; The Little Tacos Shope</p>
+    </footer>
+  </body>
+</html>
